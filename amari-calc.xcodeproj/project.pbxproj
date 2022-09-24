@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EBA3A52D28D9AC9400832FA4 /* calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA3A52D28D9AC9400832FA4 /* amari-calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amari-calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA3A53028D9AC9400832FA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBA3A53228D9AC9400832FA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EBA3A53428D9AC9400832FA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		EBA3A53928D9AC9700832FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBA3A53C28D9AC9700832FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBA3A53E28D9AC9700832FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EBA3A54328D9AC9700832FA4 /* calcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA3A54328D9AC9700832FA4 /* amari-calcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "amari-calcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA3A54728D9AC9700832FA4 /* calcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calcTests.swift; sourceTree = "<group>"; };
-		EBA3A54D28D9AC9700832FA4 /* calcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA3A54D28D9AC9700832FA4 /* amari-calcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "amari-calcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA3A55128D9AC9700832FA4 /* calcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calcUITests.swift; sourceTree = "<group>"; };
 		EBA3A55328D9AC9700832FA4 /* calcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calcUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		EBA3A52E28D9AC9400832FA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EBA3A52D28D9AC9400832FA4 /* calc.app */,
-				EBA3A54328D9AC9700832FA4 /* calcTests.xctest */,
-				EBA3A54D28D9AC9700832FA4 /* calcUITests.xctest */,
+				EBA3A52D28D9AC9400832FA4 /* amari-calc.app */,
+				EBA3A54328D9AC9700832FA4 /* amari-calcTests.xctest */,
+				EBA3A54D28D9AC9700832FA4 /* amari-calcUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EBA3A52C28D9AC9400832FA4 /* calc */ = {
+		EBA3A52C28D9AC9400832FA4 /* amari-calc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EBA3A55728D9AC9700832FA4 /* Build configuration list for PBXNativeTarget "calc" */;
+			buildConfigurationList = EBA3A55728D9AC9700832FA4 /* Build configuration list for PBXNativeTarget "amari-calc" */;
 			buildPhases = (
 				EBA3A52928D9AC9400832FA4 /* Sources */,
 				EBA3A52A28D9AC9400832FA4 /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = calc;
+			name = "amari-calc";
 			productName = calc;
-			productReference = EBA3A52D28D9AC9400832FA4 /* calc.app */;
+			productReference = EBA3A52D28D9AC9400832FA4 /* amari-calc.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EBA3A54228D9AC9700832FA4 /* calcTests */ = {
+		EBA3A54228D9AC9700832FA4 /* amari-calcTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EBA3A55A28D9AC9700832FA4 /* Build configuration list for PBXNativeTarget "calcTests" */;
+			buildConfigurationList = EBA3A55A28D9AC9700832FA4 /* Build configuration list for PBXNativeTarget "amari-calcTests" */;
 			buildPhases = (
 				EBA3A53F28D9AC9700832FA4 /* Sources */,
 				EBA3A54028D9AC9700832FA4 /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				EBA3A54528D9AC9700832FA4 /* PBXTargetDependency */,
 			);
-			name = calcTests;
+			name = "amari-calcTests";
 			productName = calcTests;
-			productReference = EBA3A54328D9AC9700832FA4 /* calcTests.xctest */;
+			productReference = EBA3A54328D9AC9700832FA4 /* amari-calcTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EBA3A54C28D9AC9700832FA4 /* calcUITests */ = {
+		EBA3A54C28D9AC9700832FA4 /* amari-calcUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EBA3A55D28D9AC9700832FA4 /* Build configuration list for PBXNativeTarget "calcUITests" */;
+			buildConfigurationList = EBA3A55D28D9AC9700832FA4 /* Build configuration list for PBXNativeTarget "amari-calcUITests" */;
 			buildPhases = (
 				EBA3A54928D9AC9700832FA4 /* Sources */,
 				EBA3A54A28D9AC9700832FA4 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				EBA3A54F28D9AC9700832FA4 /* PBXTargetDependency */,
 			);
-			name = calcUITests;
+			name = "amari-calcUITests";
 			productName = calcUITests;
-			productReference = EBA3A54D28D9AC9700832FA4 /* calcUITests.xctest */;
+			productReference = EBA3A54D28D9AC9700832FA4 /* amari-calcUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EBA3A52828D9AC9400832FA4 /* Build configuration list for PBXProject "calc" */;
+			buildConfigurationList = EBA3A52828D9AC9400832FA4 /* Build configuration list for PBXProject "amari-calc" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EBA3A52C28D9AC9400832FA4 /* calc */,
-				EBA3A54228D9AC9700832FA4 /* calcTests */,
-				EBA3A54C28D9AC9700832FA4 /* calcUITests */,
+				EBA3A52C28D9AC9400832FA4 /* amari-calc */,
+				EBA3A54228D9AC9700832FA4 /* amari-calcTests */,
+				EBA3A54C28D9AC9700832FA4 /* amari-calcUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		EBA3A54528D9AC9700832FA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EBA3A52C28D9AC9400832FA4 /* calc */;
+			target = EBA3A52C28D9AC9400832FA4 /* amari-calc */;
 			targetProxy = EBA3A54428D9AC9700832FA4 /* PBXContainerItemProxy */;
 		};
 		EBA3A54F28D9AC9700832FA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EBA3A52C28D9AC9400832FA4 /* calc */;
+			target = EBA3A52C28D9AC9400832FA4 /* amari-calc */;
 			targetProxy = EBA3A54E28D9AC9700832FA4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -506,7 +506,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/calc";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amari-calc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/amari-calc";
 			};
 			name = Debug;
 		};
@@ -526,7 +526,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/calc";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amari-calc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/amari-calc";
 			};
 			name = Release;
 		};
@@ -569,7 +569,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EBA3A52828D9AC9400832FA4 /* Build configuration list for PBXProject "calc" */ = {
+		EBA3A52828D9AC9400832FA4 /* Build configuration list for PBXProject "amari-calc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EBA3A55528D9AC9700832FA4 /* Debug */,
@@ -578,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBA3A55728D9AC9700832FA4 /* Build configuration list for PBXNativeTarget "calc" */ = {
+		EBA3A55728D9AC9700832FA4 /* Build configuration list for PBXNativeTarget "amari-calc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EBA3A55828D9AC9700832FA4 /* Debug */,
@@ -587,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBA3A55A28D9AC9700832FA4 /* Build configuration list for PBXNativeTarget "calcTests" */ = {
+		EBA3A55A28D9AC9700832FA4 /* Build configuration list for PBXNativeTarget "amari-calcTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EBA3A55B28D9AC9700832FA4 /* Debug */,
@@ -596,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBA3A55D28D9AC9700832FA4 /* Build configuration list for PBXNativeTarget "calcUITests" */ = {
+		EBA3A55D28D9AC9700832FA4 /* Build configuration list for PBXNativeTarget "amari-calcUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EBA3A55E28D9AC9700832FA4 /* Debug */,
