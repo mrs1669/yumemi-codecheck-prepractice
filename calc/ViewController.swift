@@ -305,7 +305,7 @@ class ViewController: UIViewController {
         
         buttonMultiple.setTitle("×", for: .normal)
         buttonMultiple.titleLabel?.font = UIFont.systemFont(ofSize: 30.0)
-        buttonMultiple.backgroundColor = .systemCyan
+        buttonMultiple.backgroundColor = .systemRed
         buttonMultiple.layer.cornerRadius = buttonMultiple.frame.height / 2
         self.view.addSubview(buttonMultiple)
         
